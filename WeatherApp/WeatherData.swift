@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WeatherData {
+struct WeatherData {
     var dateInUnix:[Int] = [0, 0, 0, 0, 0]
     var weatherStatus:[String] = ["", "", "", "", ""]
     var temp:[Float] = [0.0, 0.0, 0.0, 0.0, 0.0]
@@ -18,4 +18,5 @@ class WeatherData {
         self.weatherStatus = weather
         self.temp = temperature
     }
+    
 }

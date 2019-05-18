@@ -12,12 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var test:GetBelgorodWeather = GetBelgorodWeather()
+        let test:GetBelgorodWeather = GetBelgorodWeather()
         test.getWeather()
-        var weatherNow:WeatherData = test.weather!
-        print(weatherNow.temp)
     }
-
-
 }
 

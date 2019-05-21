@@ -64,11 +64,20 @@ class ViewController: UIViewController {
                 }
                 i += 1
             }
+            // Сохранение данных в объект (не сохраняется)
+            self.weather.name = cityName
+            self.weather.temps = temp
+            self.weather.dates = unixDate
+            self.weather.icons = status
+            self.weather.descs = desc
         }
         
         var weather:GetBelgorodWeather = GetBelgorodWeather()
         weather.getWeatherForecast(closure: showingData)
+        
+        print(self.weather.temps)
     }
+    
     
 
     

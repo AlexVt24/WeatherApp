@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F53BA9F2294274200B5288B /* WeatherFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53BA9E2294274200B5288B /* WeatherFormat.swift */; };
 		1F96FDDD228EE80E00A799B4 /* GetBelgorodWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96FDDC228EE80E00A799B4 /* GetBelgorodWeather.swift */; };
-		1F96FDDF228EE88B00A799B4 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96FDDE228EE88B00A799B4 /* WeatherData.swift */; };
 		1FE56CB1228DA76300BF2624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE56CB0228DA76300BF2624 /* AppDelegate.swift */; };
 		1FE56CB3228DA76300BF2624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE56CB2228DA76300BF2624 /* ViewController.swift */; };
 		1FE56CB6228DA76300BF2624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE56CB4228DA76300BF2624 /* Main.storyboard */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		017863550B38F7166BDEE63B /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		1F53BA9E2294274200B5288B /* WeatherFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFormat.swift; sourceTree = "<group>"; };
 		1F96FDDC228EE80E00A799B4 /* GetBelgorodWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBelgorodWeather.swift; sourceTree = "<group>"; };
-		1F96FDDE228EE88B00A799B4 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		1FE56CAD228DA76300BF2624 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE56CB0228DA76300BF2624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE56CB2228DA76300BF2624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				1FE56CB9228DA76500BF2624 /* LaunchScreen.storyboard */,
 				1FE56CBC228DA76500BF2624 /* Info.plist */,
 				1F96FDDC228EE80E00A799B4 /* GetBelgorodWeather.swift */,
-				1F96FDDE228EE88B00A799B4 /* WeatherData.swift */,
+				1F53BA9E2294274200B5288B /* WeatherFormat.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -225,8 +225,8 @@
 			files = (
 				1FE56CB3228DA76300BF2624 /* ViewController.swift in Sources */,
 				1F96FDDD228EE80E00A799B4 /* GetBelgorodWeather.swift in Sources */,
-				1F96FDDF228EE88B00A799B4 /* WeatherData.swift in Sources */,
 				1FE56CB1228DA76300BF2624 /* AppDelegate.swift in Sources */,
+				1F53BA9F2294274200B5288B /* WeatherFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P8ZYB4A97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -394,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P8ZYB4A97;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (

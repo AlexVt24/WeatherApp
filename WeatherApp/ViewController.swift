@@ -146,7 +146,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             for _ in self.weather.temps {
                 
                 self.weather.averageIcon.append(self.weather.commonElementsInArray(stringArray: Array(status[a...b])))
-                self.weather.averageDesc.append(self.weather.commonElementsInArray(stringArray: Array(status[a...b])))
+                self.weather.averageDesc.append(self.weather.commonElementsInArray(stringArray: Array(desc[a...b])))
                 a = b + 1
                 i += 1
                 if i < self.weather.temps.count {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F53BA9F2294274200B5288B /* WeatherFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F53BA9E2294274200B5288B /* WeatherFormat.swift */; };
+		1F87124222A7118300B28E0A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F87124122A7118300B28E0A /* icon.png */; };
 		1F89FF9E2296E0AB006A3FE5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89FF9D2296E0AB006A3FE5 /* CustomCell.swift */; };
 		1F96FDDD228EE80E00A799B4 /* GetBelgorodWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96FDDC228EE80E00A799B4 /* GetBelgorodWeather.swift */; };
 		1FD36149229943AA00F68151 /* updateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD36148229943AA00F68151 /* updateButton.png */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		017863550B38F7166BDEE63B /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		1F53BA9E2294274200B5288B /* WeatherFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFormat.swift; sourceTree = "<group>"; };
+		1F87124122A7118300B28E0A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		1F89FF9D2296E0AB006A3FE5 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		1F96FDDC228EE80E00A799B4 /* GetBelgorodWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBelgorodWeather.swift; sourceTree = "<group>"; };
 		1FD36148229943AA00F68151 /* updateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = updateButton.png; path = "../../../../Desktop/background image/updateButton.png"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		1FD361472299439C00F68151 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				1F87124122A7118300B28E0A /* icon.png */,
 				1FD36148229943AA00F68151 /* updateButton.png */,
 				1F539488229859DA00C3C1EB /* backgroundImage */,
 			);
@@ -245,6 +248,7 @@
 				1FD36164229944A300F68151 /* 09n.jpg in Resources */,
 				1FE56CB6228DA76300BF2624 /* Main.storyboard in Resources */,
 				1FD3615D229944A300F68151 /* 10n.jpg in Resources */,
+				1F87124222A7118300B28E0A /* icon.png in Resources */,
 				1FD36169229944A300F68151 /* 13d.jpg in Resources */,
 				1FD36161229944A300F68151 /* 09d.jpg in Resources */,
 				1FD3615C229944A300F68151 /* 50d.jpg in Resources */,

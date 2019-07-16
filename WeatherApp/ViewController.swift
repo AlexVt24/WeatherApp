@@ -89,6 +89,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         case 0:
             toChangeTheDataOnMainWeatherView(name:self.weather.name, temp:self.weather.tempNow, desc:self.weather.descNow, icon:self.weather.iconNow)
             toChangeTheDataOnForecastView(dates:self.weather.dates, icons:self.weather.icons)
+            print(indexPath.row)
         case 0..<weather.temps.count - 1:
             var index = 0
             for _ in self.weather.dates {
@@ -97,7 +98,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 }
                 index += 1
             }
-            toChangeTheDataOnMainWeatherView(name: weather.name, temp: weather.averageTemp[indexPath.row], desc: weather.averageDesc[indexPath.row] , icon: weather.averageIcon[indexPath.row])
+            toChangeTheDataOnMainWeatherView(name: weather.name, temp: weather.averageTemp[indexPath.row], desc: weather.averageDesc[indexPath.row], icon: weather.averageIcon[indexPath.row])
+            
             toChangeTheDataOnForecastView(dates: [Int](weather.dates[index + (indexPath.row - 1) * hours.count..<hours.count + indexPath.row * hours.count]), icons: [String](weather.icons[index + (indexPath.row - 1) * hours.count..<hours.count + indexPath.row * hours.count]))
         case weather.temps.count - 1:
             toChangeTheDataOnMainWeatherView(name: weather.name, temp: weather.averageTemp[weather.temps.count - 1], desc: weather.averageDesc[weather.temps.count - 1] , icon: weather.averageIcon[weather.temps.count - 1])
@@ -152,10 +154,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 if i < self.weather.temps.count {
                     b += self.weather.temps[i].count
                 }
-               
             }
             print(self.weather.icons)
             print(self.weather.averageIcon)
+            print(self.weather.descs)
+            print(self.weather.averageDesc)
             self.toChangeTheDataOnForecastView(dates:self.weather.dates, icons:self.weather.icons)
             
             self.weatherTable.reloadData()
